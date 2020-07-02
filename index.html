@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>PETISHOPY</title>
+</head>
+<body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v7.0'
+      });
+    };
+
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your Chat Plugin code -->
+  <div class="fb-customerchat"
+    attribution=setup_tool
+    page_id="110081847235195"
+theme_color="#67b868"
+logged_in_greeting="Hola"
+logged_out_greeting="Hola">
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PETISHOPY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto" id="links">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Animales
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="profesionales">
+                  <a class="dropdown-item" href="#">Perros</a>
+                  <a class="dropdown-item" href="#">Gatos</a>
+                  <a class="dropdown-item" href="#">Conejos</a>
+                  <a class="dropdown-item" href="#">Caballos</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Saber más</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+     
+        <button>¿Que pensamos de los humanos?</button>
+    </div>
+
+    <div class="amar">
+        <h1>Este es el sitio oficial donde nuestras mascotas tienen valor</h1>
+        <hr>
+        <p>Un animal de compañía , mascota o animal doméstico, es un animal domesticado que se conserva con el propósito de brindar compañía o para disfrute del cuidador. A diferencia de los animales de laboratorio, animales para la crianza o ganado, animales para el transporte o animales para el deporte, los animales de compañía no son conservados para traer beneficios económicos o alimenticios, aunque sí un beneficio personal1​.
+
+            Los animales de compañía son seleccionados por su comportamiento y adaptabilidad, y por su interacción con los humanos, en la que posiblemente se utilicen como herramientas de caza o seguridad. Poseer un animal de compañía puede traer a la salud consecuencias positivas, ya que el cuidado diario hace olvidar a muchas personas otro tipo de preocupaciones, evita la depresión y nos hace sentir útiles.2​ Los animales de compañía más populares son el perro y el gato.3​
+            
+            El animal de compañía también se caracteriza por ser amigable. Se puede decir que la mayoría de estos animales se convierten en domésticos si la persona con la que conviven les enseña buenos modales en la convivencia diaria, no olvidando su naturaleza animal.
+            
+            Un animal de compañía se adapta al ambiente de un ser humano sin importar su naturaleza: se adhiere a un grupo, familia o sociedad, la cual le dota de todo lo necesario para su desarrollo.
+            
+            En adaptabilidad y comportamiento, se dice que los perros como animales de compañía, superan a la mayoría. Su adaptabilidad ha ayudado al hombre en diversos ámbitos sociales, culturales y recreativos, como en su uso terapéutico en hospitales, como guías de personas ciegas, como apoyo policial, y en complicados rescates de personas.
+            
+            La compañía de cualquier mascota evoca siempre ternura, compañía y amistad, cualidades que se intensifican cuando la soledad busca filtrarse en la vida de las personas; es en estos momentos cuando la mascota adquiere un papel más importante, al sentirlo parte de la familia y aún más, como un amigo.
+            
+            La mayoría de las personas muestran una actitud positiva a través de su relación con una mascota o animal de compañía, sobre todo aquellos que sufren problemas de tipo psicológico o físico.</p>
+    </div>
+
+    <div class="mascotas">
+
+        <h3>Las mascotas favoritas de la gente</h3>
+        <div class="card-group">
+            <div class="card">
+              <img src="img/perros.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Perros</h5>
+                <p class="card-text">El perro doméstico es, probablemente, el animal de compañía más popular del mundo. Se estima que existen entre 70 y 500 millones de individuos en el planeta, por ello, son muchas las personas que quieren saber más acerca de estos animales, empezando por conocer las características del perro más destacables.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Última actualización 1 de junio</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/tgatos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Gatos</h5>
+                <p class="card-text">Con fama de independientes y poco apegados a sus cuidadores, lo cierto es que los gatos son unos excelentes compañeros para cualquier hogar. Pueden ser tan cariñosos como los perros, pero van a presentar considerables diferencias, no solo físicas. Es básico que conozcamos el carácter, el comportamiento y las necesidades, es decir, todas las características del gato, antes de adoptar uno.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Última actualización 1 de junio</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/conejo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Conejos</h5>
+                <p class="card-text">Los conejos pertenecen a la familia leporidae (lepóridos), la cual engloba a más de 40 especies, siendo el conejo europeo la única entre ellas que ha sido objeto de domesticación. Los integrantes de esta familia se caracterizan principalmente en poseer unas patas traseras más largas que las delanteras, facultándoles para dar grandes saltos; cuentan con un cuerpo robusto, dos pares de incisivos, una cola pequeña y ojos y orejas de grandes dimensiones, además poseen un manto suave y denso.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Última actualización 1 de junio</small>
+              </div>
+            </div>
+          </div>
+
+
+    </div>
+
+        <footer class="footer">
+            <p>PETISHOPY © 2020</p>
+
+        </footer>
+
+        
+
+
+
+   <!--Boostrap cdn js-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+</html>

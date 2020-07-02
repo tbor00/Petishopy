@@ -1,0 +1,112 @@
+
+
+#links {
+    font-size: 15px !important;
+    
+}
+
+a {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+a {
+    color: rgb(4, 54, 89) !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+
+a:hover {
+    border-bottom: 1px solid rgb(224, 0,  77) !important;  
+}
+
+#profesionales a {
+    padding: 0 !important;
+    font-size: 15px !important;
+    color: white !important;
+}
+
+#profesionales a:hover {
+    background: none !important;
+    border-bottom: 1px solid rgb(224, 0,  77) !important;
+
+}
+
+#profesionales {
+    background-color: rgb(4, 54, 89) !important; ;
+}
+
+.container {
+    
+    height: 500px !important;
+    background-image: url(img/perrito.jpg)!important;
+    background-position: cover !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    object-fit: cover !important;
+    background-position: center center !important;
+    animation: banner 28s infinite linear !important;
+}
+
+.container button {
+    margin-top: 50px;
+    background-color:rgb(224, 0,  77) ;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;   
+    transition:all .5s ease-in-out;       
+    -webkit-transform:scale(1);transform:scale(1);
+    outline: none;
+}
+
+.container button:hover {
+    transition:all .5s ease-in-out;
+    
+    -webkit-transform:scale(1.7);transform:scale(1.2);
+}
+
+.amar {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(4, 54, 89) ;
+}
+
+.amar p {
+    font-size: 15px;
+    color: black;
+}
+
+.mascotas {
+    padding-top: 80px;
+    width: 100%;
+    padding-top: 80px;
+  
+}
+
+.mascotas h3 {
+    text-align: center;
+    color:rgb(4, 54, 89);
+    padding-bottom: 80px;
+}
+
+.footer {
+    width: 100%;
+    padding-top: 50px;
+    background-color: rgb(4, 54, 89);
+    height: 100px;
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+}
+
+.mascotas img {
+    height: 300px;
+}
+.card-group {
+    margin-bottom: 90px !important;
+}
+
